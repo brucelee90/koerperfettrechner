@@ -1,5 +1,6 @@
 document.getElementById('KFA-Eingaben').addEventListener('submit', ergebnis);
 
+
 function ergebnis(e) {
     // Mann oder Frau
     let gender = document.querySelector('input[name = "gender"]:checked').value;
